@@ -1,0 +1,103 @@
+{
+    "codes": {
+        "update": {
+            "UD02101": "`listcogs`: From send respectively become in one message.",
+            "UD04101": "Added the command `listcogs` into `history`.",
+            "UA37101": "Version 1.0: Added `UD02101`(Beta: `Up-12D2111`), `UD04101`(Beta: Up-12D2111), `UA37101`, `UD08101`, `EN1001`, `EN1002`, `EN0301`, `EN0302`, `EN0001`, `EN0002`, `EN0003`, `EN0004`, `EN0005`, `EN0006`, `EN0007`, `EN0008`, `EN0401`.",
+            "UD08101": "Load aliases added \"codes\" -- \"cd\", \"help\" -- \"h\", \"info\" -- \"if\", \"updates\" -- \"ud\", all singletons turn lists, loading changes by this.",
+            "UA37102": "Version 1.1: Added `UA31102`, `EN0402`, changed `EN0008` -- \"Appeared unexpect argument type\" become \"Appeared unexpect argument type.\"",
+            "UD08102": "Load aliases added \"profitfileexport\" -- \"pffep\", \"you_know\" -- \"yk\", \"rules\" -- \"rs\", loading changes by this.",
+            "UN12101": "In \"Plans to update\", when some version number is starts with \"v\", it will be capitalized.",
+            "UD02201": "`task_status`: Added SQL system with bitdotio(PostgreSQL) instead of repl.it data.json file, won't affected by that.",
+            "UN22201": "`task-status`: Made the status showing system more efficiency and lower the limitation.",
+            "UD29201": "`Did_you_know`: \"IdleCorp Profit project has started since 2020-12!\" -- the start day, \n\"IdleCorp is more complex than other general idle games\" -- Nothing special, \n\"You can do more--\\|times for\\| \\|\\\"if\\\"\\|\" -- the easter eggs of the `info` command, \n\"IdleCorp Profit has started as a text file at the beginning\" -- Nothing special, \n\"Find more easter eggs!\" -- easter eggs are hided, \n\"Well this \\\"Did you know\\\" not really a easter egg\" -- A fact, \n\"You can find more thing (or info) in the IdleCorp wiki!\" -- Nothing special, \n\"IdleCorp Profit just has profit.txt when the first version has been released\" -- A fact that the come from of \"Profit\" in \"IdleCorp Profit\", \n\"Discord and the bot\" -- Nothing special, \n\"Idle Corporations!\" -- Maybe the come from of \"IdleCorp\", \n\"History will be more history!\" -- When in javascript version, history really history, \n\"Version 1!\" -- The v.1.0 released, \n\"Stable version!\" -- Fisrt stable version v.1.0 released\nTotally 13 added.",
+            "UD08103": "Load aliases added \"calculationcmds\" -- \"cc\", \"cclc\", \"clc\", \"profitfileexport\" -- \"pffep\", \"suggestions\" -- \"sgt\", \"sg\", \"ncguide\" -- \"ncg\", removed \"data_backup\"",
+            "UA37103": "Version 1.2: Added `UD08102`, `UN12101`, `ED1001`, `UD02201`, `UN22201`, `UD29201`, `UD08103`.",
+            "UD02102": "All admin commands: use has_any_role(), instead of has_any_role([]), cogs_commands from has_role(\"Owner\") became same with others.",
+            "UA37104": "Version 1.2.1: Added `UD02102`",
+            "UD29202": "`Did_you_know`: \"History's codes has more than thousand lines!\" -- python version history's codes lines, \n\"IdleCorp Helper (or calculator) bot right here!\" -- IdleCorp Profit bot, \n\"Newcomer guide is here!\" -- the guide combined into the command `ncguide`\nTotally 3 added.",
+            "UA37105": "Version 1.2.2: Added `UD29202`",
+            "UD48201": "Alias system from \"__init__\" became \"_index\" and put the first command aliases into \"_index\"",
+            "UA02101": "`codes`: More to Admin permission codes supports.",
+            "UD59101": "`Easter eggs`: Added in `codes`, the first `\\n` is in the whole code block too.",
+            "UD03201": "`cogs_commands`: Removed `listcogs`, `load`, `unload`, `sss` since they don't needed and `listcogs` combined into `help` because of the change of the program language.",
+            "UD28201": "Handlers: Removed cogs and classes`custom_exception`, `error_handler`, `function_handler` since they don't needed because of the change of the program language.",
+            "UA37106": "Version 1.3.0: Added `UD48201`, `UA02101`, `UD59101`, `UD03201`, `UD28201`",
+            "UD29203": "`Did_you_know`: Removed:\n\"IdleCorp has few years\"(changed)\n\"Find more easter eggs!\"(changed)\n\"Well this \"Did you know\" not really a easter egg\"(meaningless)\n\"You can find more thing (or info) in the IdleCorp wiki!\"(changed)\n\"IdleCorp Profit just has profit.txt when the first version has been released\"(changed)\n\"Discord and the bot\"(meaningless)\n\"Idle Corporations!\"(changed)\n\"Version 1!\"(changed)\n\"Stable version!\"(changed)\n\"History's codes has more than thousand lines!\"(outdated)\nTotally 10 removed\nAdded:\n\"IdleCorp has begun since 2019!\" -- Changed\n\"There are some easter eggs in the bot, you can go find them!\" -- Changed\n\"You can find more information on the IdleCorp Wiki!\" -- Changed\n\"IdleCorp Profit was just a profit.txt when the first version has been released\" -- Changed\n\"The meaning of \"IdleCorp\" could be \"Idle Corporation\"!\" -- Changed\n\"Version 1 has been released!\" -- Changed\n\"Stable version has been released!\" -- Changed\n\"Teemaw is the developer of IdleCorp\" -- A fact\n\"IdleCorp is a unique Discord game bot!\" -- A fact\n\"Lance0 is a amazing IdleCorp Wiki editor!\" -- A fact\n\"Punisher is a good helper and moderator\" -- A fact\n\"There are many colors of embeds!\" -- A hint of a easter agg\nTotally 12 added.",
+            "UA37107": "Version 1.4.0: Added `UD29203`, `EN0111`(1.3.0: `EN0301`), `EN0112`(1.3.0: `EN0302`), `EN0011`(1.3.0: `EN0001`), `EN0012`, `EN0001`(1.3.0: `EN0005`), `EN0002`(1.3.0: `EN0004`, `EN0006`), `EN0003`(1.3.0: `EN0007`), `EN1011`, `EN1012`, `EN2001`, `EN2002`, `EN2011`, `EN0021`, `EN0022`, `EN2211`, `EN0121`, `EN0122`, Removed all error codes `EN1001`, `EN1002`, `EN0401`, `EN0402`, `EN0301`, `EN0302`, `EN0001`, `EN0002`, `EN0003`, `EN0004`, `EN0005`, `EN0006`, `EN0007`, `EN0008`, `ED1001`",
+            "UA37108": "Version 1.4.1: Added `EN0131`, `EN2221`",
+            "UN11101": "`info themes`: Added \"service(s)\", \"park(s)\", \"policy(s)\", \"region\", \"regional modifiers\", \"happiness\". \"region prices\", \"population\".",
+            "UA37109": "Version 1.4.2: Added `UN11101`"
+        },
+        "error": {
+            "EN0111": "Need permission role of the Owner or the Developer or missing/not enough access permission.",
+            "EN0112": "Need permission role of Admin or missing/not enough access permission.",
+            "EN0011": "Missing required or necessary flag(s) or it cannot detect. Please mind all flags must start with \"--\", \"-\", depends on the requirement. Currently most of the commands use \"--\" flag syntax.",
+            "EN0012": "Invalid flag(s) detected, maybe there is/are some invalid flag(s) inside the parameters, please follow to the requrement.",
+            "EN0013": "The number of flags (or parameters but include of flag) is over the required maximum number of flag(s), you need to make sure the parameters ",
+            "EN0001": "Missing required or necessary parameter(s). If there is/are parameter(s) is/are flag(s), they need to add \"--\" or \"-\" at the beginning of the parameter, it depends of the requirement.",
+            "EN0002": "Invalid parameter(s) detected, if the parameter is a number, it should a valid number. Please follow the requirement if you made a typo in it.",
+            "EN0003": "Invalid position of the parameter(s) detected, if the last parameter is a flag and there is at least required parameter is behind the flag, this happens.",
+            "EN0021": "Missing parameter(s) of the flag, if the flag of the syntax contains any parameters is required, they are necessary.",
+            "EN0022": "Invalid flag parameter(s), the correct parameter(s) is/are depend(s) on the requirement.",
+            "EN1011": "Missing required subcommand or the the required parameter of subcommand was missing. Depends on the requirement.",
+            "EN1012": "Invalid subcommand, please make sure the subcommand was spelling right and valid.",
+            "EN2001": "Missing command with the prefix, you were probably missing a command to use the bot.",
+            "EN2002": "Invalid command detected, this may because the command may invalld/didn't exist on this bot or you used wrong prefix.",
+            "EN2011": "Detected an unexpected/unhandled error on the commannd. You may need to contact the Developer to know the information with the timestamp and the error code if possible and it is exist.",
+            "EN2211": "The bot program has some problem with the bot host, if the problem cannot be fixed, the host may needed to be changed, to paid host. More detail: https://discord.com/channels/801019800682758145/822656681388933160/870587613415870524.",
+            "EN0121": "Missing access permission, the access permission could be provided by the permission provider.",
+            "EN0122": "The permission is not verified, make sure you have enough permission for the requirement.",
+            "EN0131": "Missing profile or data about a specific information.",
+            "EN2221": "An error from database respond, this bug still cannot be solved until the host is paid. More detail: https://discord.com/channels/801019800682758145/916618404507549697/916619871889031189 Section \"Bot limitation and future\"."
+        }
+    },
+    "oldnew": {
+        "beta": {
+            "Up-12D2111": "UD02101",
+            "Up-12D2112": "UD04101"
+        },
+        "1.3.0": {
+            "EN0301": "EN0111",
+            "EN0302": "EN0112",
+            "EN0001": "EN0011",
+            "EN0004": "EN0002",
+            "EN0005": "EN0001",
+            "EN0006": "EN0002",
+            "EN0007": "EN0003"
+        }
+    },
+    "oldver": {
+        "beta": {
+            "update": {
+                "Up-12D2111": "From send respectively become in one message.",
+                "Up-12D2112": "Added the command `listcogs` into `history`"
+            }
+        },
+        "1.0": {
+            "error": {
+                "EN0008": "Appeared unexpect argument type"
+            }
+        },
+        "1.3.0": {
+            "error": {
+                "EN1001": "`codes <update|error>`: Entered code is invalid.",
+                "EN0301": "Need permission role: \"ICP Developer\" or \"Owner\".",
+                "EN1002": "`code`: If the code starts with \"U\", it's belongs to update, if it's \"E\", it's belongs to error.",
+                "EN0302": "Need permission role: \"Admin\".",
+                "EN0001": "Flags error, flags must be starts with \"--\" or \"-\", looks for the requirement.",
+                "EN0002": "Flags error, the number of flags is invalid.",
+                "EN0003": "Flag(s) is/are invalid.",
+                "EN0004": "Check the name(s) (or/and number(s)) you entered is valid (If it's flag, mark it as flag mark(`-`/`--`), if it's a bug, report it) or it's not a bug.",
+                "EN0401": "Appeared multiple result when checking.",
+                "EN0005": "Missing argument(s) or name(s) or flag(s).",
+                "EN0006": "The number(s) argument(s) is invalid.",
+                "EN0007": "The argument(s) location(s) or type or numbers or argument(s) wrong.",
+                "EN0008": "Appeared unexpect argument type.",
+                "EN0402": "Cannot find aliases for some special cases.",
+                "ED1001": "`task add`: The task was exixt in tasks list."
+            }
+        }
+    },
+    "version": "1.4.0"
+}

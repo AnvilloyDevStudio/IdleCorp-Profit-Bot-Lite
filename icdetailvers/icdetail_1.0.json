@@ -1,0 +1,1616 @@
+{
+    "facilities": {
+        "tree_farm": {
+            "consumes": "None",
+            "produces": {
+                "wood": 2
+            },
+            "speed": 5
+        },
+        "oil_well": {
+            "consumes": "None",
+            "produces": {
+                "crude_oil": 10
+            },
+            "speed": 10
+        },
+        "coal_mine": {
+            "consumes": "None",
+            "produces": {
+                "coal": 8
+            },
+            "speed": 10
+        },
+        "iron_mine": {
+            "consumes": "None",
+            "produces": {
+                "iron": 1
+            },
+            "speed": 20
+        },
+        "oil_refinery": {
+            "consumes": {
+                "crude_oil": 5
+            },
+            "produces": {
+                "gasoline": 1
+            },
+            "speed": 30
+        },
+        "steel_mill": {
+            "consumes": {
+                "iron": 1,
+                "coal": 4
+            },
+            "produces": {
+                "steel": 1
+            },
+            "speed": 35
+        },
+        "bauxite_mine": {
+            "consumes": "None",
+            "produces": {
+                "bauxite": 40
+            },
+            "speed": 25
+        },
+        "rubber_factory": {
+            "consumes": {
+                "crude_oil": 8
+            },
+            "produces": {
+                "rubber": 1
+            },
+            "speed": 40
+        },
+        "gas_station": {
+            "consumes": {
+                "gasoline": 2
+            },
+            "produces": {
+                "money": 15
+            },
+            "speed": 15
+        },
+        "furniture_factory": {
+            "consumes": {
+                "wood": 10
+            },
+            "produces": {
+                "furniture": 1
+            },
+            "speed": 240
+        },
+        "aluminum_factory": {
+            "consumes": {
+                "bauxite": 10
+            },
+            "produces": {
+                "aluminum": 25
+            },
+            "speed": 25
+        },
+        "led_factory": {
+            "consumes": {
+                "silicon": 2
+            },
+            "produces": {
+                "led": 40
+            },
+            "speed": 50
+        },
+        "polyester_factory": {
+            "consumes": {
+                "crude_oil": 110
+            },
+            "produces": {
+                "polyester": 14
+            },
+            "speed": 25
+        },
+        "silicon_mine": {
+            "consumes": "None",
+            "produces": {
+                "silicon": 4
+            },
+            "speed": 260
+        },
+        "bicycle_factory": {
+            "consumes": {
+                "steel": 12,
+                "rubber": 8
+            },
+            "produces": {
+                "bicycle": 1
+            },
+            "speed": 90
+        },
+        "gold_mine": {
+            "consumes": "None",
+            "produces": {
+                "gold": 4
+            },
+            "speed": 300
+        },
+        "lamp_factory": {
+            "consumes": {
+                "plastic": 6,
+                "led": 12
+            },
+            "produces": {
+                "lamp": 2
+            },
+            "speed": 15
+        },
+        "cotton_farm": {
+            "consumes": "None",
+            "produces": {
+                "cotton": 4
+            },
+            "speed": 20
+        },
+        "plastic_factory": {
+            "consumes": {
+                "crude_oil": 20
+            },
+            "produces": {
+                "plastic": 200
+            },
+            "speed": 25
+        },
+        "ccd_factory": {
+            "consumes": {
+                "silicon": 6
+            },
+            "produces": {
+                "ccd": 1
+            },
+            "speed": 65
+        },
+        "glass_factory": {
+            "consumes": {
+                "silicon": 2
+            },
+            "produces": {
+                "glass": 8
+            },
+            "speed": 35
+        },
+        "cpu_factory": {
+            "consumes": {
+                "gold": 1,
+                "silicon": 8
+            },
+            "produces": {
+                "cpu": 5
+            },
+            "speed": 120
+        },
+        "clothing_factory": {
+            "consumes": {
+                "polyester": 20,
+                "cotton": 10
+            },
+            "produces": {
+                "clothing": 10
+            },
+            "speed": 40
+        },
+        "cell_phone_factory": {
+            "consumes": {
+                "plastic": 5,
+                "glass": 1,
+                "cpu": 1
+            },
+            "produces": {
+                "cell_phone": 1
+            },
+            "speed": 45
+        },
+        "coal_power_plant": {
+            "consumes": {
+                "coal": 50
+            },
+            "produces": {
+                "energy": 35
+            },
+            "speed": 30
+        },
+        "laptop_factory": {
+            "consumes": {
+                "plastic": 8,
+                "glass": 2,
+                "cpu": 1
+            },
+            "produces": {
+                "laptop": 1
+            },
+            "speed": 90
+        },
+        "research_chemical_factory": {
+            "consumes": {
+                "crude_oil": 10
+            },
+            "produces": {
+                "research_chemical": 4
+            },
+            "speed": 30
+        },
+        "solar_power_plant": {
+            "consumes": "None",
+            "produces": {
+                "energy": 60
+            },
+            "speed": 90
+        },
+        "rocket_fuel_factory": {
+            "consumes": {
+                "energy": 10
+            },
+            "produces": {
+                "rocket_fuel": 1
+            },
+            "speed": 900
+        },
+        "digital_camera_factory": {
+            "consumes": {
+                "ccd": 1,
+                "plastic": 100
+            },
+            "produces": {
+                "digital_camera": 1
+            },
+            "speed": 80
+        },
+        "television_factory": {
+            "consumes": {
+                "plastic": 36,
+                "glass": 12,
+                "cpu": 1
+            },
+            "produces": {
+                "television": 1
+            },
+            "speed": 180
+        },
+        "gasoline_engine_factory": {
+            "consumes": {
+                "steel": 15,
+                "rubber": 6
+            },
+            "produces": {
+                "gasoline_engine": 1
+            },
+            "speed": 260
+        },
+        "car_factory": {
+            "consumes": {
+                "gasoline_engine": 1,
+                "plastic": 1000,
+                "glass": 28,
+                "steel": 40,
+                "cpu": 1,
+                "rubber": 30
+            },
+            "produces": {
+                "car": 1
+            },
+            "speed": 600
+        },
+        "prescription_drug_factory": {
+            "consumes": {
+                "research_chemical": 1
+            },
+            "produces": {
+                "prescription_drug": 2
+            },
+            "speed": 50
+        },
+        "airport": {
+            "consumes": {
+                "jet_fuel": 10,
+                "energy": 25
+            },
+            "produces": {
+                "money": 1000
+            },
+            "speed": [30, 60]
+        }
+    },
+    "assets": {
+        "crude_oil": 0.1,
+        "bauxite": 0.1,
+        "wood": 0.15,
+        "coal": 0.2,
+        "plastic": 0.5,
+        "led": 2,
+        "iron": 2,
+        "polyester": 2,
+        "aluminum": 4,
+        "gasoline": 5,
+        "cotton": 5,
+        "jet_fuel": 5,
+        "rubber": 7,
+        "steel": 8,
+        "energy": 10,
+        "silicon": 25,
+        "lamp": 25,
+        "glass": 30,
+        "clothing": 30,
+        "furniture": 60,
+        "gold": 60,
+        "rocket_fuel": 100,
+        "research_chemical": 100,
+        "cpu": 200,
+        "bicycle": 240,
+        "prescription_drug": 500,
+        "ccd": 500,
+        "cell_phone": 800,
+        "laptop": 2000,
+        "digital_camera": 2000,
+        "television": 4000,
+        "gasoline_engine": 5000,
+        "car": 20000,
+        "rocket": 100000000
+    },
+    "info": {
+        "assets": {
+            "land": {
+                "icinfo": "So much room for facilities!",
+                "market": false,
+                "retail": false,
+                "icwiki": "Land is a special kind of asset that determines how many facilities you can build. Each land you own will allow you to build one facility. The price of land goes up the more land you already have. You can buy land the same way you buy other assets, but land cannot be sold.\nNote: Land can be removed from a region, using $$liquidate, which will sell everything in the region. Land and Factories are sold for 40% of what you paid. Assets are sold at the current sell price value of the NPC market.",
+                "wikipedia": "Land is the solid surface of the Earth that is not permanently covered by water.The vast majority of human activity throughout history has occurred in land areas that support agriculture, habitat, and various natural resources.",
+                "icp": "Land is important for IdleCorp, also important for real life."
+            },
+            "scrap": {
+                "icinfo": "One man's scrap is another man's XP.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Scrap is an asset used to Level your Factories, Mines, and Facilities",
+                "wikipedia": "Scrap consists of recyclable materials left over from product manufacturing and consumption, such as parts of vehicles, building supplies, and surplus materials. Unlike waste, scrap has monetary value, especially recovered metals, and non-metallic materials are also recovered for recycling.",
+                "icp": "XP is used to produce more asset+ when not facility+, that;s not really a good news if don't want primary resourse become asset+ because it will make facility fewer resourse comes. In real life, it probably can be recycled to become other things."
+            },
+            "crude_oil": {
+                "icinfo": "Full of useful organic compounds.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Crude oil is an asset extracted from the region using Oil wells. The oil can be processed into several other commodities. Crude oil is a naturally occurring, yellowish-black liquid found in geological formations beneath the Earth's surface. It is commonly refined into various types of fuels.",
+                "wikipedia": "Petroleum, is a naturally occurring, yellowish-black liquid found in geological formations beneath the Earth's surface."
+            },
+            "bauxite": {
+                "icinfo": "A mineral precursor for aluminum.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Bauxite is a sedimentary rock with a relatively high aluminum content. It is the world's main source of aluminum. Bauxite can be mined using a Bauxite mine.",
+                "wikipedia": "Bauxite is a sedimentary rock with a relatively high aluminium content. It is the world's main source of aluminium and gallium.",
+                "icp": "So this will be with sourse of aluminum."
+            },
+            "wood": {
+                "icinfo": "Useful for construction or as fuel.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Wood is an asset grown in the region using Tree farms. The wood can be processed into other commodities or sold.",
+                "wikipedia": "Wood is a porous and fibrous structural tissue found in the stems and roots of trees and other woody plants.Wood has been used for thousands of years for fuel, as a construction material, for making tools and weapons, furniture and paper.",
+                "icp": "Don't waste too much paper, wood not that much, trees need time to grown."
+            },
+            "coal": {
+                "icinfo": "A great source of carbon and non-renewable energy.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Coal is an asset extracted from the region using Coal mines. The coal can be processed into other assets or sold. Coal is a combustible black or brownish-black sedimentary rock. Coal is mostly carbon with variable amounts of other elements. Coal is used in creating electricity and it is the most common way of producing electricity. However, coal also emits harmful chemicals in the air. People are finding alternatives to coal for energy.",
+                "wikipedia": "oal is a combustible black or brownish-black sedimentary rock, formed as rock strata called coal seams. Coal is mostly carbon with variable amounts of other elements; chiefly hydrogen, sulfur, oxygen, and nitrogen.Coal is formed when dead plant matter decays into peat and is converted into coal by the heat and pressure of deep burial over millions of years.",
+                "icp": "Coal is limitted in real life, but not in IdleCorp."
+            },
+            "plastic": {
+                "icinfo": "Light and disposable. Worry about the mess later!",
+                "market": true,
+                "retail": false,
+                "icwiki": "Plastic is a synthetic compound that can be molded into solid objects. Plastic is an asset manufactured in Plastic Factories and used to build several other assets or can be sold.",
+                "wikipedia": "Plastics are a wide range of synthetic or semi-synthetic materials that use polymers as a main ingredient. Their plasticity makes it possible for plastics to be moulded, extruded or pressed into solid objects of various shapes.Most modern plastics are derived from fossil fuel based petrochemicals like natural gas or petroleum; however, recent industrial methods use variants made from renewable materials, such as corn or cotton derivatives."
+            },
+            "led": {
+                "icinfo": "A electrical diode capable of emitting light.",
+                "market": true,
+                "retail": false,
+                "icwiki": "LED is an asset manufactured in a LED factory and used to build other assets or can be sold. A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it.",
+                "wikipedia": "A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons. The color of the light (corresponding to the energy of the photons) is determined by the energy required for electrons to cross the band gap of the semiconductor.White light is obtained by using multiple semiconductors or a layer of light-emitting phosphor on the semiconductor device.",
+                "icp": "LED is good light sourse, long life and often used in TV and LED moniter."
+            },
+            "iron": {
+                "icinfo": "A common ferrous metal.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Iron can be extracted from a region using Iron mines. Iron is a chemical element with the symbol Fe. It is by mass the most common element on Earth, forming much of Earth's outer and inner core.",
+                "wikipedia": "Iron is a chemical element with symbol Fe and atomic number 26. It is by mass the most common element on Earth, right in front of oxygen (32.1% and 30.1%, respectively), forming much of Earth's outer and inner core. It is the fourth most common element in the Earth's crust.",
+                "icp": "It's common appear in industry."
+            },
+            "polyester": {
+                "icinfo": "Synthetic fibers useful for clothing.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Polyester is an asset manufactured in a Polyester factory and used to build other assets or can be sold. Polyester is a synthetic fiber that can be spun together with natural fibers to produce clothing with blended properties. Cotton-polyester blends can be strong, wrinkle- and tear-resistant, and reduce shrinking.",
+                "wikipedia": "Polyester is a category of polymers that contain the ester functional group in every repeat unit of their main chain.As a specific material, it most commonly refers to a type called polyethylene terephthalate (PET). Polyesters include naturally occurring chemicals, such as in the cutin of plant cuticles, as well as synthetics such as polybutyrate. Natural polyesters and a few synthetic ones are biodegradable, but most synthetic polyesters are not. The material is used extensively in clothing."
+            },
+            "aluminum": {
+                "icinfo": "A light, soft, and non-ferrous metal.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Aluminum can be produced by an Aluminum factory. It can be used for building BP's or sold. Aluminum is a chemical element with the symbol Al. Aluminum makes up about 8% of the Earth's crust, where it is the most abundant metal. The chief ore of aluminum is bauxite. Bauxite ore is heated in a pressure vessel along with a sodium hydroxide solution at a temperature of 150 to 200 °C (300 to 390 °F). At these temperatures, the aluminum is dissolved and recovered using the Bayer process.",
+                "wikipedia": "Aluminium (aluminum in American and Canadian English) is a chemical element with the symbol Al and atomic number 13. Aluminium has a density lower than those of other common metals, at approximately one third that of steel. It has a great affinity towards oxygen, and forms a protective layer of oxide on the surface when exposed to air."
+            },
+            "gasoline": {
+                "icinfo": "Full of combustible hydrocarbons.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Gasoline is a clear petroleum-derived flammable liquid that is used primarily as a fuel in most spark-ignited internal combustion engines. Gasoline is an asset manufactured using an Oil refinery. Gasoline can be used in exports, consumed by Gas stations or sold.",
+                "wikipedia": "Gasoline or petrol is a transparent, petroleum-derived flammable liquid that is used primarily as a fuel in most spark-ignited internal combustion engines. It consists mostly of organic compounds obtained by the fractional distillation of petroleum, enhanced with a variety of additives."
+            },
+            "cotton": {
+                "icinfo": "Natural fibers from a cotton plant.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Cotton is a soft, fluffy fiber that grows in a boll, around the seeds of the cotton plants. Cotton is an asset grown in the region using Cotton farms. The cotton can be processed into other commodities or sold.",
+                "wikipedia": "Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae. The fiber is almost pure cellulose."
+            },
+            "jet_fuel": {
+                "icinfo": "Probably useful for airplanes...",
+                "market": true,
+                "retail": false,
+                "icwiki": "Jet fuel is an that is produced by an Oil refinery with the Jet fuel refining technology.",
+                "wikipedia": "fuel or aviation turbine fuel (ATF, also abbreviated avtur) is a type of aviation fuel designed for use in aircraft powered by gas-turbine engines. It is colorless to straw-colored in appearance."
+            },
+            "rubber": {
+                "icinfo": "A soft water-tight material.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Rubber is an asset manufactured in a Rubber factory and used to build other assets or can be sold. Synthetic rubber, like natural rubber, has uses in the automotive industry for tires, door and window profiles, hoses, belts, matting, and flooring.",
+                "wikipedia": "A synthetic rubber is any artificial elastomer. They are polymers synthesized from petroleum byproducts. Synthetic rubber, just like natural rubber, has many uses in the automotive industry for tires, door and window profiles, seals such as O-rings and gaskets, hoses, belts, matting, and flooring."
+            },
+            "steel": {
+                "icinfo": "A strong carbon-iron alloy.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Steel is an asset that can be produced using Steel mills and can build several other assets or can be sold. Steel is an alloy of iron and carbon or coal, sometimes, other elements. Because of its high tensile strength and low cost, this material is best used in buildings, infrastructure, tools, ships, trains, cars, machines, and electrical appliances.",
+                "wikipedia": "Steel is an alloy of iron with typically a few tenths of a percent of carbon to improve its strength and fracture resistance compared to iron. Many other elements may be present or added.",
+                "icp": "A strong alloy in real life. In IdleCorp, it's commonly appear in facilities construction material."
+            },
+            "energy": {
+                "icinfo": "E=mc^2",
+                "market": true,
+                "retail": false,
+                "icwiki": "Energy can be produced using Coal power plants or Solar power plants. In physics, energy is the quantitative property that must be transferred to an object in order to perform work on any object. It can neither be created nor destroyed. Energy is also proportional to mass and is explained by the famous formula e=mc^2.",
+                "wikipedia": "Electricity is the set of physical phenomena associated with the presence and motion of matter that has a property of electric charge. Electricity is related to magnetism, both being part of the phenomenon of electromagnetism, as described by Maxwell's equations.",
+                "icp": "Remember to reduce the power uses, it's good for lots of people."
+            },
+            "silicon": {
+                "icinfo": "An abundant semiconductor.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Silicon is an asset extracted from the region using Silicon mines. The silicon can be processed into other assets or sold. Very highly purified elemental silicon is used in semiconductor electronics (< 10%) is essential to the metal–oxide–silicon (MOS) transistors and integrated circuit chips used in most modern technology (such as computers and cell phones, for example).",
+                "wikipedia": "Silicon is a chemical element with the symbol Si and atomic number 14. It is a hard, brittle crystalline solid with a blue-grey metallic lustre, and is a tetravalent metalloid and semiconductor.It is relatively unreactive because of its high chemical affinity for oxygen"
+            },
+            "lamp": {
+                "icinfo": "Produces enough light to work with. Just beware of moths.",
+                "market": true,
+                "retail": 1,
+                "icwiki": "The lamp is an asset manufactured in a Lamp factory and is a product that can be sold for capital. A lamp is a device that produces visible light from electric currents. It is a common form of artificial lighting and is handy to modern society, providing interior lighting for buildings and exterior light for evening and nighttime activities. In technical usage, a replaceable component that produces light from electricity is called a lamp.",
+                "wikipedia": "A light fixture, light fitting, or luminaire is an electrical device that contains an electric lamp that provides illumination. All light fixtures have a fixture body and one or more lamps. The lamps may be in sockets for easy replacement—or, in the case of some LED fixtures, hard-wired in place."
+            },
+            "glass": {
+                "icinfo": "A transparent material.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Glass is an asset that can be produced using Glass factories, and used to build several other asset's or can be sold. Glass is most often formed by rapid cooling (quenching) of the molten form. The most familiar, and historically the oldest, types of manufactured glass are \"silicate glasses\" based on the chemical compound silica (silicon dioxide), the primary constituent of sand. Soda-lime glass, containing around 70% silica, accounts for around 90% of manufactured glass.",
+                "wikipedia": "Glass is a non-crystalline, often transparent amorphous solid, that has widespread practical, technological, and decorative use in, for example, window panes, tableware, and optics. Glass is most often formed by rapid cooling (quenching) of the molten form; some glasses such as volcanic glass are naturally occurring."
+            },
+            "clothing": {
+                "icinfo": "Cover yourself up!",
+                "market": true,
+                "retail": 1,
+                "icwiki": "Clothing is an asset manufactured in the Clothing factories and is a product that can be sold for capital. Clothing (also known as clothes, apparel and attire) is items worn on the body. Clothing is typically made of fabrics or textiles. The wearing of clothing is mostly restricted to human beings and is a feature of all human societies. The amount and type of clothing worn depend on gender, body type, social, and geographic considerations.",
+                "wikipedia": "Clothing (also known as clothes, apparel and attire) are items worn on the body. Clothing is typically made of fabrics or textiles but over time has included garments made from animal skin or other thin sheets of materials put together."
+            },
+            "furniture": {
+                "icinfo": "Great for home owners who value comfort.",
+                "market": true,
+                "retail": 1,
+                "icwiki": "Furniture is an asset manufactured in the Furniture factories and is a product that can be sold for capital. Furniture refers to movable objects intended to support various human activities such as seating (e.g., chairs, stools, and sofas), eating (tables), and sleeping (e.g., beds).",
+                "wikipedia": "Furniture refers to movable objects intended to support various human activities such as seating, eating, and sleeping. Furniture is also used to hold objects at a convenient height for work, or to store things. Furniture can be a product of design and is considered a form of decorative art."
+            },
+            "gold": {
+                "icinfo": "A beautiful, non-reactive metal.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Gold is an asset extracted from the region using Gold mines. The gold can be processed into other assets or sold. Gold often occurs in free elemental (native) form, as nuggets or grains, in rocks, in veins, and in alluvial deposits. Gold's high malleability, ductility, resistance to corrosion and most other chemical reactions, and conductivity of electricity have led to its continued use in corrosion resistant electrical connectors in all types of computerized devices (its chief industrial use).",
+                "wikipedia": "Gold is a chemical element with the symbol Au and atomic number 79, making it one of the higher atomic number elements that occur naturally. In a pure form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal.",
+                "icp": "It's a good metal."
+            },
+            "rocket_fuel": {
+                "icinfo": "It's not rocket science.",
+                "market": false,
+                "retail": false,
+                "icwiki": "Rocket fuel is an asset manufactured using Rocket fuel factories and can be sold. \nNote: This asset is a remaining item from an old version. Rocket fuel was used to fuel Rockets.",
+                "wikipedia": "Rocket propellant is the reaction mass of a rocket. This reaction mass is ejected at the highest achievable velocity from a rocket engine to produce thrust. The energy required can either come from the propellants themselves, as with a chemical rocket, or from an external source, as with ion engines.",
+                "icp": "It's get gave up."
+            },
+            "research_chemical": {
+                "icinfo": "Research grade chemicals.",
+                "market": true,
+                "retail": false,
+                "icwiki": "Research chemical is an asset manufactured in a Research chemical factory and used to build other assets or can be sold. Research chemicals are chemical substances used by scientists for medical and scientific research purposes.",
+                "wikipedia": "Research chemicals are chemical substances used by scientists for medical and scientific research purposes. One characteristic of a research chemical is that it is for laboratory research use only; a research chemical is not intended for human or veterinary use."
+            },
+            "cpu": {
+                "icinfo": "Following Moore's Law since 1971.",
+                "market": true,
+                "retail": false,
+                "icwiki": "CPU is an asset manufactured in the CPU factories and used to build several other assets or can be sold. A central processing unit (CPU), also called a main processor is the electronic circuitry within a computer that executes instructions that make up a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program.",
+                "wikipedia": "A central processing unit (CPU), also called a central processor, main processor or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions in the program. This contrasts with external components such as main memory and I/O circuitry.",
+                "icp": "CPU can be strong."
+            },
+            "bicycle": {
+                "icinfo": "Useful for your commute.",
+                "market": true,
+                "retail": 1,
+                "icwiki": "Bicycle is an asset manufactured in the Bicycle Factories and is a product that can be sold for capital. A bicycle, a.k.a a bike or cycle, is a human-powered, pedal-driven vehicle, having two wheels attached to a frame, one behind the other.",
+                "wikipedia": "A bicycle, also called a bike or cycle, is a human-powered or motor-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other. A bicycle rider is called a cyclist, or bicyclist.",
+                "icp": "Bicycle usually in sports."
+            },
+            "prescription_drug": {
+                "icinfo": "Laughter, it's said, is the best medicine.",
+                "market": true,
+                "retail": 1,
+                "icwiki": "The prescription drug is an asset manufactured in a Prescription drug factory and is a product that can be sold for capital. A prescription drug (also prescription medication or prescription medicine) is a pharmaceutical drug that legally requires a medical prescription to be dispensed.",
+                "wikipedia": "A prescription drug (also prescription medication or prescription medicine) is a pharmaceutical drug that legally requires a medical prescription to be dispensed. In contrast, over-the-counter drugs can be obtained without a prescription.",
+                "icp": "Don't sick is better."
+            },
+            "ccd": {
+                "icinfo": "An array of semiconductors capable of taking digital images.",
+                "market": true,
+                "retail": false,
+                "icwiki": "CCD is an asset manufactured in a CCD factory and used to build other assets or can be sold. A charge-coupled device (CCD) is a device for the movement of electrical charge, usually from within the device to an area where the charge can be manipulated, such as conversion into a digital value. CCD is a major technology for digital imaging.",
+                "wikipedia": "A charge-coupled device (CCD) is an integrated circuit containing an array of linked, or coupled, capacitors. Under the control of an external circuit, each capacitor can transfer its electric charge to a neighboring capacitor. CCD sensors are a major technology used in digital imaging.",
+                "icp": "A special hardware."
+            },
+            "cell_phone": {
+                "icinfo": "What? Don't you guys have phones?",
+                "market": true,
+                "retail": 1,
+                "icwiki": "A cell phone is an asset manufactured in the Cell phone factories and is a product that can be sold for capital. A mobile phone, cellular phone, or cell phone is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.",
+                "wikipedia": "A mobile phone, cellular phone, cell phone, cellphone, handphone, or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.",
+                "icp": "Everyone should have this thing."
+            },
+            "laptop": {
+                "icinfo": "Great for on the go productivity.",
+                "market": true,
+                "retail": 2,
+                "icwiki": "Laptop is an asset manufactured in the Laptop factories and is a product that can be sold for capital. A laptop computer is a small, portable personal computer (PC) with a \"clamshell\" form factor, typically having a thin LCD or LED computer screen mounted on the inside of the upper lid of the clamshell and an alphanumeric keyboard on the inside of the lower lid. Its name comes from lap, as it was deemed to be placed on a person's lap when being used.",
+                "wikipedia": "A laptop or laptop computer is a small, portable personal computer (PC) with a \"clamshell\" form factor, typically having a thin LCD or LED computer screen mounted on the inside of the upper lid of the clamshell and an alphanumeric keyboard on the inside of the lower lid. The clamshell is opened up to use the computer. Laptops are folded shut for transportation, and thus are suitable for mobile use."
+            },
+            "digital_camera": {
+                "icinfo": "A digital camera for taking photos of your favorite moments.",
+                "market": true,
+                "retail": 2,
+                "icwiki": "The digital camera is an asset manufactured in the Digital camera factories and is a product that can be sold for capital. A digital camera or digicam is a camera that captures photographs in digital memory. High-end, high-definition dedicated cameras are still commonly used by professionals and those who desire to take higher-quality photographs.",
+                "wikipedia": " digital camera is a camera that captures photographs in digital memory. Most cameras produced today are digital, largely replacing those that capture images on photographic film. While there are still dedicated digital cameras, many more cameras are now incorporated into mobile devices like smartphones."
+            },
+            "television": {
+                "icinfo": "What's cable?",
+                "market": true,
+                "retail": 4,
+                "icwiki": "Television is an asset manufactured in the Television factory and is a product that can be sold for capital. Television (TV), sometimes shortened to tele or telly, is a telecommunication medium used for transmitting moving images in two or three dimensions and sound. Television is a mass medium for advertising, entertainment, news, and sports.",
+                "wikipedia": "Television (TV), sometimes shortened to tele or telly, is a telecommunication medium used for transmitting moving images in monochrome (black and white), or in color, and in two or three dimensions and sound. The term can refer to a television set, a television show, or the medium of television transmission. Television is a mass medium for advertising, entertainment, news, and sports.",
+                "icp": "Big moniter."
+            },
+            "gasoline_engine": {
+                "icinfo": "Transforms combustion of gasoline into rotational motion.",
+                "market": true,
+                "retail": false,
+                "icwiki": "The gasoline engine is an asset that can be produced using Gasoline engine factories and is used to build other assets or can be sold. A gasoline engine (American English) or Petrol engine (British English) is an internal combustion engine with spark-ignition, designed to run on petrol (gasoline) and similar volatile fuels.",
+                "wikipedia": "Petrol engine or gasoline engine is an internal combustion engine with spark-ignition, designed to run on petrol and similar volatile fuels. In most petrol engines, the fuel and air are usually pre-mixed before compression."
+            },
+            "car": {
+                "icinfo": "An essential transportation utility in a modern society.",
+                "market": true,
+                "retail": 23,
+                "icwiki": "A Car is an asset manufactured in the Car factories and is a product that can be sold for capital. A car (or automobile) is a wheeled motor vehicle used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four tires, and mainly transport people rather than goods.",
+                "wikipedia": "A car is a wheeled motor vehicle used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people rather than goods.",
+                "icp": "It's expensive but not the most profit."
+            },
+            "rocket": {
+                "icinfo": "Maybe it is rocket science.",
+                "market": false,
+                "retail": false,
+                "icwiki": "Rocket is an asset in the market and is a product that can be sold for capital. \nNote: This asset is a remaining item from an old version. Rocket's are not currently buildable.",
+                "wikipedia": "A rocket is a projectile that spacecraft, aircraft or other vehicle use to obtain thrust from a rocket engine. Rocket engine exhaust is formed entirely from propellant carried within the rocket.Rocket engines work by action and reaction and push rockets forward simply by expelling their exhaust in the opposite direction at high speed, and can therefore work in the vacuum of space.",
+                "icp": "The system had been removed."
+            }
+        },
+        "facilities": {
+            "tree_farm": {
+                "icinfo": "Sustainably farmed lumber.",
+                "construct": {
+                    "money": 100
+                },
+                "icwiki": "he tree farm is used to farm wood from your region.",
+                "wikipedia": "A tree farm is a privately owned forest managed for timber production. The term, tree farm, also is used to refer to tree plantations, tree nurseries, and Christmas tree farms.",
+                "icp": "Used to produce wood, log."
+            },
+            "oil_well": {
+                "icinfo": "A well bringing crude oil to the surface.",
+                "construct": {
+                    "iron": 100,
+                    "money": 100
+                },
+                "icwiki": "The Oil Well is used to harvest crude oil from the ground.",
+                "wikipedia": "An oil well is a boring in the Earth that is designed to bring petroleum oil hydrocarbons to the surface. Usually some natural gas is released as associated petroleum gas along with the oil. A well that is designed to produce only gas may be termed a gas well.",
+                "icp": "Produce oil to make gasoline and plastic."
+            },
+            "coal_mine": {
+                "icinfo": "A mine extracting coal from the ground.",
+                "construct": {
+                    "wood": 1000,
+                    "money": 250
+                },
+                "icwiki": "The coal mine is a facility",
+                "wikipedia": "Coal mining is the process of extracting coal from the ground. Coal is valued for its energy content and since the 1880s, has been widely used to generate electricity. Steel and cement industries use coal as a fuel for extraction of iron from iron ore and for cement production.",
+                "icp": "A kind of sourse of coal."
+            },
+            "iron_mine": {
+                "icinfo": "A mine extracting iron from the ground.",
+                "construct": {
+                    "wood": 2000,
+                    "money": 250
+                },
+                "icwiki": "The coal mine is a facility",
+                "wikipedia": "Blank",
+                "icp": "A sourse of any iron type."
+            },
+            "oil_refinery": {
+                "icinfo": "Refines crude oil into gasoline.",
+                "construct": {
+                    "steel": 50,
+                    "iron": 200,
+                    "crude_oil": 100,
+                    "money": 240
+                },
+                "icwiki": "The oil refinery is a facility",
+                "wikipedia": "An oil refinery or petroleum refinery is an industrial process plant where crude oil is transformed and refined into useful products such as petroleum naphtha, gasoline, diesel fuel, asphalt base, heating oil, kerosene, liquefied petroleum gas, jet fuel and fuel oils.",
+                "icp": "Secondary resourse."
+            },
+            "steel_mill": {
+                "icinfo": "Makes steel by smelting iron with coal.",
+                "construct": {
+                    "coal": 250,
+                    "iron": 500,
+                    "money": 150
+                },
+                "icwiki": "The steel mill is a facility",
+                "wikipedia": "A steel mill or steelworks is an industrial plant for the manufacture of steel. It may be an integrated steel works carrying out all steps of steelmaking from smelting iron ore to rolled product, but may also be a plant where steel semi-finished casting products are made from molten pig iron or from scrap.",
+                "icp": "Used to make string metal."
+            },
+            "bauxite_mine": {
+                "icinfo": "A mine extracting bauxite from the ground.",
+                "construct": {
+                    "steel": 50,
+                    "wood": 5000,
+                    "money": 150
+                },
+                "icwiki": "The Bauxite mine is used to mine Bauxite which can be used in the production of Aluminum.",
+                "wikipedia": "None",
+                "icp": "Bauxite sourse."
+            },
+            "rubber_factory": {
+                "icinfo": "Produces synthetic rubber by processing crude oil.",
+                "construct": {
+                    "steel": 100,
+                    "wood": 2500,
+                    "money": 325
+                },
+                "icwiki": "The rubber factory is a facility",
+                "wikipedia": "None",
+                "icp": "A place to make rubber, used oil."
+            },
+            "gas_station": {
+                "icinfo": "Sells gasoline to the public.",
+                "construct": {
+                    "rubber": 100,
+                    "steel": 100,
+                    "money": 300
+                },
+                "icwiki": "The gas station is a facility",
+                "wikipedia": "A filling station is a facility that sells fuel and engine lubricants for motor vehicles.A filling station that sells only electric energy is also known as a charging station, while a typical filling station can also be known as a fueling station or gas station."
+            },
+            "furniture_factory": {
+                "icinfo": "Manufactures furniture by woodworking.",
+                "construct": {
+                    "steel": 100,
+                    "wood": 5000,
+                    "money": 450
+                },
+                "icwiki": "The furniture factory is a facility\nThis factory is considered by many players to be a key factory. You NEED this factory to progress to getting a logistics center, which is where you can generally get aided by other players for resources. Want to get a good retail set-up? You need others to give you the resources. Want to be an end-product wholesaler? You need CPUs and other penultimate tier resources. The fact that a logistics center is pretty much necessary makes furniture factories also necessary.\nLater on, when mass reincorporating without the free logistics center from the season pass, the speed one can get the 250 furniture requirement to build the logistics center can make or break your tokens attained in a certain timeframe by a large margin.",
+                "wikipedia": "None",
+                "icp": "Used wood to make furniture."
+            },
+            "aluminum_factory": {
+                "icinfo": "A factory producing aluminum by processing bauxite.",
+                "construct": {
+                    "steel": 150,
+                    "rubber": 300,
+                    "money": 450
+                },
+                "icwiki": "The aluminum factory is a facility",
+                "wikipedia": "None"
+            },
+            "led_factory": {
+                "icinfo": "A factory producing LEDs by processing silicon.",
+                "construct": {
+                    "steel": 200,
+                    "wood": 2000,
+                    "silicon": 10,
+                    "money": 2850
+                },
+                "icwiki": "The LED factory is a facility",
+                "wikipedia": "None",
+                "icp": "Produce good light."
+            },
+            "polyester_factory": {
+                "icinfo": "A factory producing polyester by processing crude oil.",
+                "construct": {
+                    "steel": 500,
+                    "wood": 10000,
+                    "money": 500
+                },
+                "icwiki": "The polyester factory is a facility",
+                "wikipedia": "None",
+                "icp": "Used resourse to produce polyester."
+            },
+            "silicon_mine": {
+                "icinfo": "A mine extracting silicon from the ground.",
+                "construct": {
+                    "steel": 400,
+                    "wood": 25000,
+                    "money": 2050
+                },
+                "icwiki": "Silicon mine produce",
+                "wikipedia": "None",
+                "icp": "Make silicon."
+            },
+            "bicycle_factory": {
+                "icinfo": "Manufactures bicycles by combining other assets.",
+                "construct": {
+                    "steel": 500,
+                    "rubber": 200,
+                    "wood": 10000,
+                    "money": 3100
+                },
+                "icwiki": "The bicycle factory is a facility",
+                "wikipedia": "None",
+                "icp": "Use many things to produce."
+            },
+            "gold_mine": {
+                "icinfo": "A mine extracting gold from the ground.",
+                "construct": {
+                    "steel": 1000,
+                    "wood": 50000,
+                    "money": 4500
+                },
+                "icwiki": "Gold mine produce",
+                "wikipedia": "Gold mining is the resource extraction of gold by mining."
+            },
+            "lamp_factory": {
+                "icinfo": "A factory producing lamps by combining other assets.",
+                "construct": {
+                    "rubber": 2000,
+                    "wood": 25000,
+                    "money": 10250
+                },
+                "icwiki": "The Lamp factory is a facility",
+                "wikipedia": "None"
+            },
+            "cotton_farm": {
+                "icinfo": "A farm producing cotton from cotton plants.",
+                "construct": {
+                    "wood": 100000,
+                    "money": 15000
+                },
+                "icwiki": "The cotton farm is a facility",
+                "wikipedia": "None",
+                "icp": "Don't need things can produce cotton."
+            },
+            "plastic_factory": {
+                "icinfo": "Produces plastic by processing crude oil.",
+                "construct": {
+                    "steel": 200,
+                    "rubber": 6000,
+                    "wood": 5000,
+                    "money": 5650
+                },
+                "icwiki": "The plastic factory is a facility",
+                "wikipedia": "None",
+                "icp": "Use oil make thing."
+            },
+            "ccd_factory": {
+                "icinfo": "A factory producing CCDs by processing silicon.",
+                "construct": {
+                    "steel": 5000,
+                    "glass": 500,
+                    "money": 14000
+                },
+                "icwiki": "The CCD factory is a facility",
+                "wikipedia": "None"
+            },
+            "glass_factory": {
+                "icinfo": "Produces glass by processing silicon.",
+                "construct": {
+                    "steel": 6000,
+                    "aluminum": 500,
+                    "money": 30000
+                },
+                "icwiki": "The glass factory is a facility",
+                "wikipedia": "None",
+                "icp": "Why not made of sand?"
+            },
+            "cpu_factory": {
+                "icinfo": "Manufactures CPUs by combining other assets.",
+                "construct": {
+                    "wood": 100000,
+                    "aluminum": 10000,
+                    "glass": 1000,
+                    "money": 15000
+                },
+                "icwiki": "The CPU factory is a facility",
+                "wikipedia": "None",
+                "icp": "Make the strong processer."
+            },
+            "clothing_factory": {
+                "icinfo": "A factory producing clothing from cotton and polyester.",
+                "construct": {
+                    "steel": 1000,
+                    "wood": 100000,
+                    "money": 137000
+                },
+                "icwiki": "The Clothing factory is a facility",
+                "wikipedia": "None"
+            },
+            "cell_phone_factory": {
+                "icinfo": "Manufactures cell phones by combining other assets.",
+                "construct": {
+                    "steel": 10000,
+                    "wood": 50000,
+                    "aluminum": 50000,
+                    "cpu": 100,
+                    "glass": 2000,
+                    "money": 32500
+                },
+                "icwiki": "The cell phone factory is a facility",
+                "wikipedia": "None",
+                "icp": "Make some phone."
+            },
+            "coal_power_plant": {
+                "icinfo": "Produces energy by burning coal.",
+                "construct": {
+                    "steel": 50000,
+                    "wood": 200000,
+                    "money": 70000
+                },
+                "icwiki": "Produces energy by burning coal.",
+                "wikipedia": "A coal-fired power station or coal power plant is a thermal power station which burns coal to generate electricity. Coal-fired power stations generate over a third of the world's electricity but cause hundreds of thousands of early deaths each year, mainly from air pollution.",
+                "icp": "Not a good power resourse in real life."
+            },
+            "laptop_factory": {
+                "icinfo": "Manufactures laptops by combining other assets.",
+                "construct": {
+                    "steel": 10000,
+                    "wood": 100000,
+                    "aluminum": 10000,
+                    "glass": 10000,
+                    "money": 365000
+                },
+                "icwiki": "__Sus__taining __it__",
+                "wikipedia": "None"
+            },
+            "research_chemical_factory": {
+                "icinfo": "A factory producing research chemicals by processing crude oil.",
+                "construct": {
+                    "steel": 10000,
+                    "rubber": 50000,
+                    "aluminum": 10000,
+                    "money": 330000
+                },
+                "icwiki": "Sustaining it require",
+                "wikipedia": "None",
+                "icp": "Researches."
+            },
+            "solar_power_plant": {
+                "icinfo": "Produces energy using solar power.",
+                "construct": {
+                    "steel": 5000,
+                    "aluminum": 25000,
+                    "glass": 25000,
+                    "money": 110000
+                },
+                "icwiki": "The solar power plant is a facility",
+                "wikipedia": "Solar power is the conversion of energy from sunlight into electricity, either directly using photovoltaics (PV), indirectly using concentrated solar power, or a combination. Concentrated solar power systems use lenses or mirrors and solar tracking systems to focus a large area of sunlight into a small beam. Photovoltaic cells convert light into an electric current using the photovoltaic effect.",
+                "icp": "A clean energy resourse, and no need consumes."
+            },
+            "rocket_fuel_factory": {
+                "icinfo": "Produces rocket fuel by processing energy.",
+                "construct": {
+                    "money": 1000000
+                },
+                "icwiki": "[Blank]",
+                "wikipedia": "None",
+                "icp": "It's get gave up too."
+            },
+            "digital_camera_factory": {
+                "icinfo": "A factory producing digital cameras by combining other assets.",
+                "construct": {
+                    "steel": 10000,
+                    "aluminum": 100000,
+                    "glass": 20000,
+                    "money": 320000
+                },
+                "icwiki": "__Sus__taining __it__ require",
+                "wikipedia": "None",
+                "icp": "Digital things sourse."
+            },
+            "television_factory": {
+                "icinfo": "Manufactures televisions by combining other assets.",
+                "construct": {
+                    "rubber": 10000,
+                    "steel": 10000,
+                    "aluminum": 150000,
+                    "glass": 10000,
+                    "money": 10000
+                },
+                "icwiki": "Sustaining is require",
+                "wikipedia": "None",
+                "icp": "Some place to make big moniter."
+            },
+            "gasoline_engine_factory": {
+                "icinfo": "Manufactures gasoline engines by combining other assets.",
+                "construct": {
+                    "steel": 100000,
+                    "rubber": 100000,
+                    "money": 500000
+                },
+                "icwiki": "The Gasoline engine factory is a facility",
+                "wikipedia": "None",
+                "icp": "A engine factory."
+            },
+            "car_factory": {
+                "icinfo": "Manufactures cars by combining other assets.",
+                "construct": {
+                    "steel": 100000,
+                    "rubber": 10000,
+                    "laptop": 1000,
+                    "furniture": 3000,
+                    "money": 6750000
+                },
+                "icwiki": "The car factory is a facility",
+                "wikipedia": "The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles.It is one of the world's largest industries by revenue.",
+                "icp": "Big machines."
+            },
+            "logistics_center": {
+                "icinfo": "Allows you to export assets and increases your hourly asset purchase limit.",
+                "construct": {
+                    "steel": 10000,
+                    "aluminum": 250000,
+                    "glass": 10000,
+                    "furniture": 250,
+                    "money": 8605000
+                },
+                "icwiki": "The logistics center allows for corporations to export assets between regions and access to the market. In addition,each logistics center increases the hourly buy limit by $1,000,000.",
+                "wikipedia": "A logistics center, or depot, is a facility dedicated to logistical operations. A logistics center might be a warehouse, freight forwarder, or a repair depot."
+            },
+            "prescription_drug_factory": {
+                "icinfo": "A factory producing prescription drugs by processing research chemicals.",
+                "construct": {
+                    "rubber": 100000,
+                    "aluminum": 250000,
+                    "glass": 10000,
+                    "money": 13000000
+                },
+                "icwiki": "Sustaining it require",
+                "wikipedia": "None",
+                "icp": "Make drugs have a good profit."
+            },
+            "airport": {
+                "icinfo": "Allows for jets to land and take off along with amenities for their passengers. Each additional region that you have an airport built in will reduce the production time of this facility.",
+                "construct": {
+                    "steel": 50000,
+                    "glass": 200000,
+                    "furniture": 2000,
+                    "money": 13480000
+                },
+                "icwiki": "Airports have a variable production interval which changes depending on how many total airports you have built in the current region.",
+                "wikipedia": "An airport is an aerodrome with extended facilities, mostly for commercial air transport.Airports often have facilities to park and maintain aircraft, and a control tower.",
+                "icp": "Unstable time."
+            },
+            "retail_store": {
+                "icinfo": "Allows consumers to buy products directly from you.",
+                "construct": {
+                    "steel": 100000,
+                    "clothing": 500,
+                    "aluminum": 100000,
+                    "glass": 100000,
+                    "furniture": 5000,
+                    "money": 15485000
+                },
+                "icwiki": "The retail store is a facility created in the 1.7.~~1~~0 Update. It sells products automatically to customers. For more info on the facilities, please see the Retail page.",
+                "wikipedia": "The retail format (also known as the retail formula) influences the consumer's store choice and addresses the consumer's expectations. At its most basic level, a retail format is a simple marketplace, that is; a location where goods and services are exchanged.",
+                "icp": "Make good price, sell high price."
+            },
+            "research_facility": {
+                "icinfo": "Allows you to research new technologies.",
+                "construct": {
+                    "steel": 100000,
+                    "laptop": 600,
+                    "clothing": 100,
+                    "research_chemical": 100000,
+                    "money": 12877000
+                },
+                "icwiki": "The research facility allows corporations to perform research. The research facility must be built in the region in which research would be performed.Note that you can research multiple blueprints at once by building the research centers in different regions.\nResearch allows corporations to discover blueprints by spending 1,000,000 energy and $1,000,000, with an additional expense of 500,000 energy+ for every research facility beyond 6 in the region, which can then be instantly finished with 4x gratitude points. Blueprints can be developed into their respective technologies to be installed in a region.",
+                "wikipedia": "A research institute, research centre, or research center is an establishment founded for doing research. Research institutes may specialize in basic research or may be oriented to applied research. Although the term often implies natural science research, there are also many research institutes in the social science as well, especially for sociological and historical research purposes.",
+                "icp": "Do some research, get some good blueprints."
+            },
+            "customer_support_center": {
+                "icinfo": "Provides support to your retail customers.",
+                "construct": {
+                    "steel": 100000,
+                    "laptop": 1000,
+                    "aluminum": 100000,
+                    "glass": 100000,
+                    "furniture": 5000,
+                    "money": 43300000
+                },
+                "icwiki": "The Customer Support Center (commonly called csc for short) is a facility created in the 1.7.~~1~~0 Update. It is a support facility for your retail store(s). It directly affects your retail reputation, which affects your retail demand per hour.\nCustomer support centers provide a range of customer services to assist customers in making cost-effective and correct use of a product. It includes assistance in planning, installation, training, troubleshooting, maintenance, upgrading, and disposal of a product.",
+                "wikipedia": "None",
+                "icp": "Support customers."
+            },
+            "hq": {
+                "icinfo": "Unlocks retail store commands. You only need one hq for your entire corporation.",
+                "construct": {
+                    "logistics expension": 1,
+                    "steel": 100000,
+                    "laptop": 20000,
+                    "television": 2000,
+                    "glass": 100000,
+                    "furniture": 10000,
+                    "money": 17600000
+                },
+                "icwiki": "The HQ or retail headquarters is a facility created in the 1.7.~~1~~0 Update. It is a support facility for your retail store(s). It provides the ability to use commands that work with your retail stores. For example; add/ remove retail products, adjust product sell price. Only one of this building type is required to manage retail stores, no matter what region the retail stores are in.\nHeadquarters (commonly referred to as HQ) denotes the location where most, if not all, of the important functions of an organization are coordinated. In the United States, the corporate headquarters represents the entity at the center or the top of a corporation taking full responsibility for managing all business activities. In the United Kingdom, the term head office is most commonly used for the headquarters of large corporations.",
+                "wikipedia": "Headquarters denotes the location where most, if not all, of the important functions of an organization are coordinated. In the United States, the corporate headquarters represents the entity at the center or the top of a corporation taking full responsibility for managing all business activities.",
+                "icp": "Retails HQ."
+            }
+        },
+        "blueprints": {
+            "oil_mapping_blueprint": {
+                "icinfo": "A blueprint for `oil mapping`. You can develop this technology by typing `$$develop oil mapping`",
+                "rarity": "common",
+                "require": {
+                    "steel": 10000,
+                    "cpu": 1000
+                },
+                "icp": "Very common"
+            },
+            "coal_detector_blueprint": {
+                "icinfo": "A blueprint for `coal detector`. You can develop this technology by typing `$$develop coal detector`",
+                "rarity": "common",
+                "require": {
+                    "coal": 10000,
+                    "steel": 1000000
+                }
+            },
+            "log_loader_blueprint": {
+                "icinfo": "A blueprint for `log loader`. You can develop this technology by typing `$$develop log loader`",
+                "rarity": "common",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 100000
+                }
+            },
+            "advanced_woodworking_blueprint": {
+                "icinfo": "A blueprint for `advanced woodworking`. You can develop this technology by typing `$$develop advanced woodworking`",
+                "rarity": "uncommon",
+                "require": {
+                    "steel": 50000,
+                    "plastic": 50000
+                }
+            },
+            "bauxite_detector_blueprint": {
+                "icinfo": "A blueprint for `bauxite detector`. You can develop this technology by typing `$$develop bauxite detector`",
+                "rarity": "uncommon",
+                "require": {
+                    "steel": 1000000,
+                    "aluminum": 800000,
+                    "bauxite": 50000
+                }
+            },
+            "jet_fuel_refining_blueprint": {
+                "icinfo": "A blueprint for `jet fuel refining`. You can develop this technology by typing `$$develop jet fuel refining`",
+                "rarity": "uncommon",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 100000,
+                    "aluminum": 100000
+                }
+            },
+            "gold_detector_blueprint": {
+                "icinfo": "A blueprint for `gold detector`. You can develop this technology by typing `$$develop gold detector`",
+                "rarity": "uncommon",
+                "require": {
+                    "steel": 100000,
+                    "gold": 50000
+                }
+            },
+            "vacuum_distillation_blueprint": {
+                "icinfo": "A blueprint for `vacuum distillation`. You can develop this technology by typing `$$develop vacuum distillation`",
+                "rarity": "uncommon",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 800,
+                    "aluminum": 800000
+                }
+            },
+            "robotic_automation_blueprint": {
+                "icinfo": "A blueprint for `robotic automation`. You can develop this technology by typing `$$develop robotic automation`",
+                "rarity": "rare",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 500000,
+                    "aluminum": 1000000,
+                    "cpu": 10000,
+                    "plastc": 5000000
+                }
+            },
+            "factory_specialization_blueprint": {
+                "icinfo": "A blueprint for `factory specialization`. You can develop this technology by typing `$$develop factory specialization`",
+                "rarity": "rare",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 500000,
+                    "alluminum": 1000000
+                }
+            },
+            "mining_specialization_blueprint": {
+                "icinfo": "A blueprint for `mining specialization`. You can develop this technology by typing `$$develop mining specialization`",
+                "rarity": "rare",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 500000,
+                    "aluminum": 1000000
+                }
+            },
+            "oil_specialization_blueprint": {
+                "icinfo": "A blueprint for `oil specialization`. You can develop this technology by typing `$$develop oil specialization`",
+                "rarity": "rare",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 500000,
+                    "aluminum": 1000000
+                }
+            },
+            "energy_specialization_blueprint": {
+                "icinfo": "A blueprint for `energy specialization`. You can develop this technology by typing `$$develop energy specialization`",
+                "rarity": "rare",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 500000,
+                    "aluminum": 1000000
+                }
+            },
+            "logistics_expansion_blueprint": {
+                "icinfo": "A blueprint for `logistics expansion`. You can develop this technology by typing `$$develop logistics expansion`",
+                "rarity": "superior",
+                "require": {
+                    "steel": 400000,
+                    "gold": 100000,
+                    "cpu": 10000,
+                    "plastic": 1000000
+                }
+            },
+            "airport_tram_blueprint": {
+                "icinfo": "A blueprint for `airport tram`. You can develop this technology by typing `$$develop airport tram`",
+                "rarity": "superior",
+                "require": {
+                    "steel": 1000000,
+                    "rubber": 500000,
+                    "aluminum": 1000000
+                }
+            },
+            "quality_control_blueprint": {
+                "icinfo": "A blueprint for `quality control`. You can develop this technology by typing `$$develop quality control`",
+                "rarity": "superior",
+                "require": {
+                    "steel": 1000000,
+                    "aluminum": 1000000,
+                    "silicon": 200000
+                }
+            },
+            "reincorporation_computer_blueprint": {
+                "icinfo": "A blueprint for `reincorporation computer`. You can develop this technology by typing `$$develop reincorporation computer`",
+                "rarity": "superior",
+                "require": {
+                    "scrap": 100000,
+                    "cpu": 10000
+                }
+            }
+        },
+        "technologies": {
+            "oil_mapping": {
+                "icinfo": "Improves all `oil well` you own in this region. Each `oil well` now produces **14x** of `crude oil`.",
+                "rarity": "common",
+                "scrap": 2040,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `oil well` you own in this region. Each `oil well` now produces **18x** of `crude oil`.",
+                        "scrap": 6120
+                    },
+                    "uu": {
+                        "icinfo": "Improves all `oil well` you own in this region. Each `oil well` now produces **100x** of `crude oil`.",
+                        "scrap": 18360
+                    }
+                },
+                "boost": ["14", "18", "100"],
+                "affect": "oil well",
+                "icwiki": "Improves all oil wells of a corporation in the region it is installed in to produce **14x** crude oil instead of 10x.",
+                "wikipedia": "None"
+            },
+            "coal_detector": {
+                "icinfo": "Improves all `coal mine` you own in this region. Each `coal mine` now produces **12x** of `coal`.",
+                "rarity": "common",
+                "scrap": 1800,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `coal mine` you own in this region. Each `coal mine` now produces **16x** of `coal`.",
+                        "scrap": 5400
+                    },
+                    "uu": {
+                        "icinfo": "Improves all `coal mine` you own in this region. Each `coal mine` now produces **80x** of `coal`.",
+                        "scrap": 16200
+                    }
+                },
+                "boost": ["12", "16", "80"],
+                "affect": "coal mine",
+                "icwiki": "Improves all coal mines of a corporation in the region it is installed in to produce 12x coal instead of 8x.\nThe u version makes it produce 16x coal, and the uu version produces 80x coal. It is 5x more powerful to have a uu version versus u version. If you will produce coal for coal power plants, then rushing a uu is a must!",
+                "wikipedia": "None"
+            },
+            "log_loader": {
+                "icinfo": "Improves all `tree farm` you own in this region. Each `tree farm` now takes `00:04` for production.",
+                "rarity": "common",
+                "scrap": 1800,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `tree farm` you own in this region. Each `tree farm` now takes `00:03` for production.",
+                        "scrap": 5400
+                    },
+                    "uu": {
+                        "icinfo": "Improves all `tree farm` you own in this region. Each `tree farm` now takes `00:03` for production and produces **4x** of `wood`.",
+                        "scrap": 5400
+                    }
+                },
+                "boost": ["-1 Second", "-2 Second", "-2 Second + 4"],
+                "affect": "tree farm",
+                "icwiki": "Improves all tree farms of a corporation in the region it is installed in to reduce its production time to 0:04 from 0:05.",
+                "wikipedia": "A loader is a heavy equipment machine used in construction to move or load materials such as soil, rock, sand, demolition debris, etc. into or onto another type of machinery (such as a dump truck, conveyor belt, feed-hopper, or railroad car).",
+                "icp": "Just loading log on trucks"
+            },
+            "advanced_woodworking": {
+                "icinfo": "Improves all `furniture factory` you own in this region. Each `furniture factory` now takes `03:20` for production.",
+                "rarity": "uncommon",
+                "scrap": 2100,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `furniture factory` you own in this region. Each `furniture factory` now takes `02:40` for production.",
+                        "scrap": 6300
+                    },
+                    "uu": {
+                        "icinfo": "Improves all `furniture factory` you own in this region. Each `furniture factory` now takes `00:30` for production.",
+                        "scrap": 18900
+                    }
+                },
+                "boost": ["-40 Second", "-80 Second", "-210 Second"],
+                "affect": "furniture factory",
+                "icwiki": "Improves all furniture factories of a corporation in the region it is installed in to reduce its production time to 3:20 from 4:00.",
+                "wikipedia": "None"
+            },
+            "bauxite_detector": {
+                "icinfo": "Improves all `bauxite mine` you own in this region. Each `bauxite mine` now produces **50x** of `bauxite`.",
+                "rarity": "uncommon",
+                "scrap": 2400,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `bauxite mine` you own in this region. Each `bauxite mine` now produces **60x** of `bauxite`.",
+                        "scrap": 7200
+                    },
+                    "uu": "None"
+                },
+                "boost": ["50", "60"],
+                "affect": "bauxite mine",
+                "icwiki": "Improves all bauxite mines of a corporation in the region it is installed in to produce 50x bauxite instead of 40x.",
+                "wikipedia": "None"
+            },
+            "jet_fuel_refining": {
+                "icinfo": "Changes all `oil refinery` you own in this region. Each `oil refinery` now produces `jet fuel` instead of `gasoline`.",
+                "rarity": "uncommon",
+                "scrap": 2000,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Changes all `oil refinery` you own in this region. Each `oil refinery` now produces `jet fuel` instead of `gasoline` and takes `0:08` instead of `0:30`.",
+                        "scrap": 6000
+                    },
+                    "uu": "None"
+                },
+                "boost": ["jet fuel", "-22 Second"],
+                "affect": "oil refinery",
+                "icwiki": "Improves all Oil refineries of a corporation in the region it is installed in to produce 1x Jet fuel instead of 1x Gasoline every 30 seconds. This is the only way to produce Jet fuel.\nThe u version makes it produce 1x Jet fuel in 8 seconds instead of 30 seconds.",
+                "wikipedia": "None"
+            },
+            "gold_detector": {
+                "icinfo": "Improves all `gold mine` you own in this region. Each `gold mine` now produces **6x** of `gold`.",
+                "rarity": "uncommon",
+                "scrap": 2800,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `gold mine` you own in this region. Each `gold mine` now produces **8x** of `gold`.",
+                        "scrap": 8400
+                    },
+                    "uu": {
+                        "icinfo": "Improves all `gold mine` you own in this region. Each `gold mine` now produces **10x** of `gold`.",
+                        "scrap": 25200
+                    }
+                },
+                "boost": ["6", "8", "10"],
+                "affect": "gold mine",
+                "icwiki": "Improves all gold mines of a corporation in the region it is installed in to produce 6x gold instead of 4x.",
+                "wikipedia": "None"
+            },
+            "vacuum_distillation": {
+                "icinfo": "Changes all `oil refinery` you own in this region. Each `oil refinery` now takes `0:15` for production.",
+                "rarity": "uncommon",
+                "scrap": 2400,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Changes all `oil refinery` you own in this region. Each `oil refinery` now takes `0:08` for production.",
+                        "scrap": 7200
+                    },
+                    "uu": "None"
+                },
+                "boost": ["-15 Second", "-22 Second"],
+                "affect": "oil refinery",
+                "icwiki": "Changes all oil refinery you own in this region. Each oil refinery now takes 0:15 for production when installed. The u version further decreases to 0:08 of production time.",
+                "wikipedia": "Vacuum distillation is distillation performed under reduced pressure, which allows the purification of compounds not readily distilled at ambient pressures or simply to save time or energy. This technique separates compounds based on differences in their boiling points. This technique is used when the boiling point of the desired compound is difficult to achieve or will cause the compound to decompose."
+            },
+            "robotic_automation": {
+                "icinfo": "Changes **all facilities** you own in this region. Each facility now has `2.5%` increased production.",
+                "rarity": "rare",
+                "scrap": 4000,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Changes **all facilities** you own in this region. Each facility now has `4%` increased production.",
+                        "scrap": 12000
+                    },
+                    "uu": {
+                        "icinfo": "Changes **all facilities** you own in this region. Each facility now has `6%` increased production.",
+                        "scrap": 36000
+                    }
+                },
+                "boost": ["2.5%", "4%", "6%"],
+                "affect": "all facilities",
+                "icwiki": "Improves all facilities by 2.5% when installed.",
+                "wikipedia": "Robotic process automation is a form of business process automation technology based on metaphorical software robots or on artificial intelligence/digital workers.",
+                "icp": "Strong tech"
+            },
+            "factory_specialization": {
+                "icinfo": "If you have more than **50x** of a factory in the region, raises the level of all of those factories' you own in the region by `4`.",
+                "rarity": "rare",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": "None",
+                    "uu": "None"
+                },
+                "boost": ["+4 levels"],
+                "affect": "all factories",
+                "icwiki": "If you have more than 50x of a factory in the region, raises the level of all of those factories' you own in the region by 4.\nThe u version and uu version is not available at this time.",
+                "wikipedia": "None"
+            },
+            "mining_specialization": {
+                "icinfo": "If you have more than **100x** mines in the region, raises the level of all mines you own in the region by `4`.",
+                "rarity": "rare",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": "None",
+                    "uu": "None"
+                },
+                "boost": ["+4 levels"],
+                "affect": "all mines",
+                "icwiki": "If you have more than 100x mines in the region, raises the level of all mines you own in the region by 4.\nThe u version and uu version is not available at this time.",
+                "wikipedia": "None"
+            },
+            "oil_specialization": {
+                "icinfo": "If you have more than **50x** `oil well` in the region, raises the level of all `oil well` you own in the region by `4`.",
+                "rarity": "rare",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": "None",
+                    "uu": "None"
+                },
+                "boost": ["+4 levels"],
+                "affect": "oil well",
+                "icwiki": "If you have more than 50x oil well in the region, raises the level of all oil well you own in the region by 4.\nThe u version and uu version is not available at this time.",
+                "wikipedia": "None"
+            },
+            "energy_specialization": {
+                "icinfo": "If you have more than `100x` energy plants in the region, raises the level of all energy plants you own in the region by `4`.",
+                "rarity": "rare",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": "None",
+                    "uu": "None"
+                },
+                "boost": ["+4 levels"],
+                "affect": "all energy plants",
+                "icwiki": "If you have more than 100x energy plants in the region, raises the level of all energy plants you own in the region by 4.\nThe u version and uu version is not available at this time.",
+                "wikipedia": "None"
+            },
+            "logistics_expansion": {
+                "icinfo": "Improves all `logistics center` you own in this region. Each `logistics center` now increases your asset purchase limit by `$4,000,000.00`.",
+                "rarity": "superior",
+                "scrap": 5000,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Improves all `logistics center` you own in this region. Each `logistics center` now increases your asset purchase limit by `$5,000,000.00`.",
+                        "scrap": 15000
+                    },
+                    "uu": "None"
+                },
+                "boost": ["2x", "2.5x"],
+                "affect": "logistics center",
+                "icwiki": "Improves all logistics centers of a corporation in the region it is installed in to increase a corporation's purchase limit by $2,000,000.00 each instead of $1,000,000.00 each.",
+                "wikipedia": "None"
+            },
+            "airport_tram": {
+                "icinfo": "Changes all `airport` you own in this region. Each `airport` now takes `0:04` less for production (but never less than 0:20).",
+                "rarity": "superior",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Changes all `airport` you own in this region. Each `airport` now takes `0:08` less for production (but never less than 0:20).",
+                        "scrap": 9000
+                    },
+                    "uu": "None"
+                },
+                "boost": ["-4 Second", "-8 Second"],
+                "affect": "airport",
+                "icwiki": "Improves all Airports of a corporation in the region it is installed in to reduce the production time by -4 seconds. But never less then 0:30 seconds.\nThe u version makes it reduce the production time by -8 seconds. But never less then 0:30 seconds. A uu version is not available at this time.",
+                "wikipedia": "This is a list of automated people mover systems located at airport complexes around the world. These systems are used to transport people from one location within an airport to another. Many different types of people movers are used at airports, including automated guideway transit, monorail, and maglev."
+            },
+            "quality_control": {
+                "icinfo": "Raises the level of all facilities you own in the region by `2`.",
+                "rarity": "superior",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": {
+                        "icinfo": "Raises the level of all facilities you own in the region by `4`.",
+                        "scrap": 9000
+                    },
+                    "uu": "None"
+                },
+                "boost": ["+2 levels", "+4 levels"],
+                "affect": "all facilities",
+                "icwiki": "Improves all facilities of a corporation in the region it is installed in to raises the level of all facilities you own in the region by 2.\nThe u version makes it raises the level of all facilities you own in the region by 4. A uu version is not available at this time.",
+                "wikipedia": "Quality control is a process by which entities review the quality of all factors involved in production. ISO 9000 defines quality control as \"A part of quality management focused on fulfilling quality requirements\"."
+            },
+            "reincorporation_computer": {
+                "icinfo": "If you have at least **4x** technologies installed in this region, reduces your *reincorporation cooldown* in this region to **2 hours**.",
+                "rarity": "superior",
+                "scrap": 3000,
+                "upgrade": {
+                    "u": "None",
+                    "uu": "None"
+                },
+                "boost": ["Decreased to 2 hours"],
+                "affect": "reincorporation cooldown",
+                "icwiki": "If you have at least 4x technologies installed in this region, reduces your reincorporation cooldown in this region to 2 hours.\nThe u version and uu version is not available at this time.",
+                "wikipedia": "None"
+            }
+        },
+        "services": {
+            "medium_park": {
+                "icinfo": "Some more greenery never hurts either.",
+                "effect": "**+2** Happiness",
+                "cost": 1000000,
+                "wikipedia": "None"
+            },
+            "region_office": {
+                "icinfo": "Democracy at work.",
+                "effect": "Access to enable and disable regional policies.",
+                "cost": 100000000,
+                "wikipedia": "None"
+            },
+            "large_park": {
+                "icinfo": "A much needed relief from the monotony of factory work.",
+                "effect": "**+3** Happiness",
+                "cost": 10000000,
+                "wikipedia": "None"
+            },
+            "land_management_office": {
+                "icinfo": "An office dedicated to monitoring and administering land in the region.",
+                "effect": "**-5.0%** land price",
+                "cost": 500000000,
+                "wikipedia": "None"
+            },
+            "university": {
+                "icinfo": "Higher education is the key to success, right?",
+                "effect": "`-10:00` to research time",
+                "cost": 200000000,
+                "wikipedia": "A university is an institution of higher education and research which awards academic degrees in various academic disciplines. Universities typically offer both undergraduate and postgraduate programs. In the United States, universities must offer graduate degrees; institutions offering only undergraduate degrees are colleges.",
+                "icp": "A big school"
+            },
+            "small_park": {
+                "icinfo": "Some greenery never hurts.",
+                "effect": "**+1** Happiness",
+                "cost": 100000,
+                "wikipedia": "None"
+            },
+            "fiber_infrastructure": {
+                "icinfo": "No more copper.",
+                "effect": "**+5** to facility levels",
+                "cost": 10000000000,
+                "wikipedia": "Fiber to the x or fiber in the loop is a generic term for any broadband network architecture using optical fiber to provide all or part of the local loop used for last mile telecommunications. As fiber optic cables are able to carry much more data than copper cables, especially over long distances, copper telephone networks built in the 20th century are being replaced by fiber.",
+                "icp": "Hard spell word, anyway, it's a fast facility"
+            }
+        },
+        "policies": {
+            "land_grant": {
+                "affect": "**-5%** to `land` price, **+25%** to all facilities' build price",
+                "cost": 5,
+                "wikipedia": "A land grant is a gift of real estate – land or its use privileges – made by a government or other authority as an incentive, means of enabling works, or as a reward for services to an individual, especially in return for military service. Grants of land are also awarded to individuals and companies as incentives to develop unused land in relatively unpopulated countries; the process of awarding land grants are not limited to the countries named below."
+            },
+            "high_income_tax": {
+                "affect": "**-5** Happiness in a region, **+5** Funding points",
+                "cost": 0,
+                "wikipedia": "None"
+            },
+            "organic_farming": {
+                "affect": "**+10%** to Soil health, **+10%** to all farms' build price",
+                "cost": 2,
+                "wikipedia": "Organic farming is an agricultural system which originated early in the 20th century in reaction to rapidly changing farming practices. Certified organic agriculture accounts for 70 million hectares globally, with over half of that total in Australia."
+            },
+            "research_grant": {
+                "affect": "`-10:00` research time, **+10%** energy price",
+                "cost": 3,
+                "wikipedia": "None"
+            },
+            "low_income_tax": {
+                "affect": "**+2** Happiness in a region",
+                "cost": 4,
+                "wikipedia": "None",
+                "icp": "Good thing"
+            },
+            "tourism_compaign": {
+                "affect": "**-4s** to `airport` production time (but never less than 0:30), airports require an additional **4x** of `jet fuel`",
+                "cost": 5,
+                "wikipedia": "None"
+            },
+            "regional_planning": {
+                "affect": "**-25%** to all facilities' build price, **+5%** to `land` price",
+                "cost": 1,
+                "wikipedia": "Regional planning deals with the efficient placement of land-use activities, infrastructure, and settlement growth across a larger area of land than an individual city or town. Regional planning is related to urban planning as it relates land use practices on a broader scale. It also includes formulating laws that will guide the efficient planning and management of such said regions.Regional planning can be comprehensive by covering various subjects, but it more often specifies a particular subject, which requires region-wide consideration."
+            },
+            "public_logistics_access": {
+                "affect": "All corporations can export and buy assets as if they had an additional `logistics center` in this region (this does **not** affect market access), **+10%** to all facilities' build price",
+                "cost": 1,
+                "wikipedia": "None"
+            },
+            "solar_subsidies": {
+                "affect": "**-10%** solar power plant build price, **-10%** energy price",
+                "cost": 3,
+                "wikipedia": "None"
+            }
+        }
+    }
+}

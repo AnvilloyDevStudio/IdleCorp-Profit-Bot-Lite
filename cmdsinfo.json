@@ -1,0 +1,321 @@
+{
+    "aliases": {
+        "botinfo": {
+            "_index": ["bif"]
+        },
+        "codes": {
+            "_index": ["cds"],
+            "update": ["up", "ud", "u"],
+            "error": ["er", "e"]
+        },
+        "community": {
+            "_index": ["support"]
+        },
+        "help": {
+            "_index": ["h"]
+        },
+        "info": {
+            "_index": ["if"]
+        },
+        "ping": {
+            "_index": ["p"]
+        },
+        "production": {
+            "_index": ["pd", "pdt", "product", "produce"]
+        },
+        "profit": {
+            "_index": ["pf"]
+        },
+        "profitcomplete": {
+            "_index": ["pfc", "pfcomp"]
+        },
+        "reload": {
+            "_index": ["rl"]
+        },
+        "remind": {
+            "_index": ["rm", "rmd", "reminder"]
+        },
+        "speed": {
+            "_index": ["sp"]
+        },
+        "termsofservice": {
+            "_index": ["tos", "terms", "service"]
+        },
+        "version": {
+            "_index": ["vs", "ver"]
+        },
+        "wiki": {
+            "_index": []
+        }
+    },
+    "descriptions": {
+        "botinfo": {
+            "_index": ["Show the bot information.",
+                "botinfo"]
+        },
+        "codes": {
+            "_index": ["Show the explanations of codes.",
+                "codes {{update|error} [--{old:<version>|<version>}] <code> | {version|list}}"],
+            "update": ["Show the explanations of update codes.",
+                "codes update [--{old:<version>|<version>}] <code>"],
+            "error": ["Show the explanations of error codes.",
+                "codes error  [--{old:<version>|<version>}] <code>"]
+        },
+        "community": {
+            "_index": ["Show the community invite links",
+                "community"]
+        },
+        "help": {
+            "_index": ["Show a list of commands with descriptions and syntax or more detailed.",
+                "help [--info {list|<information>}|[--details] <command>]"]
+        },
+        "info": {
+            "_index": ["Show the information of assets, facilities, and others about IdleCorp.",
+                "info [--version:<version>] {--theme {<theme>|all|aliases}|<IdleCorp related>}"]
+        },
+        "ping": {
+            "_index": ["Show the latency of the bot.",
+                "ping"]
+        },
+        "production": {
+            "_index": ["Calcualte the time and the assets required for specific number of productions.",
+                "production [--version:<version>] [--regionmodifier:{hq|icp}] {--to <amount> <facility> [<amount>] | --production <facilities> [<assets>]}"]
+        },
+        "profit": {
+            "_index": ["Calculate the profit of the facilities.",
+                "profit [--version:<version>] [--regionmodifier:{hq|icp}] [--<time unit>] <facility> [<amount>]"]
+        },
+        "profitcomplete": {
+            "_index": ["Calculate and gives the full/comeplete profit information of the facilities.",
+                "profitcomplete [--version:<version>] [--regionmodifier:{hq|icp}] [--<time unit>] <facility> [<amount>]"]
+        },
+        "reload": {
+            "_index": ["Reload an command or a command expansion.",
+                "reload <command|command expansion>"]
+        },
+        "remind": {
+            "_index": ["A reminder.",
+                "remind <time>[<time unit>] [<value>]"]
+        },
+        "speed": {
+            "_index": ["Calculate the speed of the facilities.",
+                "speed [--version:<version>] [--regionmodifier:{hq|icp}] [--<time unit>] <facility> [<amount>]"]
+        },
+        "termsofservice": {
+            "_index": ["The link to the IdleCorp Profit project Terms of Service.",
+                "termsofservice"]
+        },
+        "version": {
+            "_index": ["Show the version of the bot.",
+                "version"]
+        },
+        "wiki": {
+            "_index": ["Show the links of the IdleCorp Wiki.",
+                "wiki"]
+        }
+    },
+    "details": {
+        "botinfo": [null, null],
+        "codes": [
+            {
+                "_args": {
+                    "<code>": "This is required when the first parameter is \"update\" or \"error\".",
+                    "--old:<version>": "The code reference tracks the older version code to the newest.",
+                    "--<version>": "The older code version with the code.",
+                    "version": "The current code version.",
+                    "list": "The list of all codes."
+                },
+                "_describe": "This command is used to show the information about code, it is update code when the code starts with \"U\", then error code starts with \"E\".",
+                "_argaliases": {
+                    "update": ["up", "ud", "u"],
+                    "error": ["er", "e"],
+                    "version": ["v"],
+                    "list": ["l"]
+                }
+            }, {
+                "version": {
+                    "aliases": ["v"],
+                    "info": [
+                        ["Description", "Show the current code version and list of all available previous code versions."],
+                        ["Syntax", "codes version"]
+                    ]
+                },
+                "list": {
+                    "aliases": ["l"],
+                    "info": [
+                        ["Description", "Show a list of codes of current code version."],
+                        ["Syntax", "codes list"]
+                    ]
+                }
+            }
+        ],
+        "community": [
+            {
+                "_describe": "Show the Discord community invite links."
+            }, null
+        ],
+        "help": [
+            {
+                "_args": {
+                    "--details": "Show more details on the command.",
+                    "<command>": "The command, may contain subcommand of the command.",
+                    "--info <information>": "See the information by using this flag.",
+                    "--info list": "List of information."
+                },
+                "_describe": "This command is used to show the information and detail of a command or a list of commands.",
+                "_argaliases": {
+                    "--info": ["--if"],
+                    "list": ["l"],
+                    "--details": ["--detail", "--d"]
+                }
+            }, null
+        ],
+        "info": [
+            {
+                "_args": {
+                    "--version:<version>": "The version of the sourse, 1.0, 1.1, 2.0.",
+                    "--theme <theme>": "The information theme related to IdleCorp.",
+                    "all": "List all the topics.",
+                    "aliases": "List of the aliases on all the themes.",
+                    "IdleCorp related": "The parameter that you need to find the information about."
+                },
+                "_describe": "This command is used to show the information about an asset, a facility, a service or a policy from IdleCorp.",
+                "_argaliases": {
+                    "--version": ["--v", "--v", "--ver"],
+                    "<IdleCorp related>": ["All follow to IdleCorp"],
+                    "--theme": ["--t"],
+                    "<theme>": ["All list at `info --theme aliases`"]
+                }
+            }, null
+        ],
+        "ping": [null, null],
+        "production": [
+            {
+                "_args": {
+                    "--version:<version>": "The version of the sourse, 1.0, 1.1, 2.0.",
+                    "--regionmodifier:{hq|icp}": "The region's modifiers applied, only IdleCorp HQ and IdleCorp Profit.",
+                    "--to <amount>": "The goal production of the output of the facility.",
+                    "<facility>": "The facility to calculate.",
+                    "<amount>": "The amount of facility.",
+                    "--production <facilities> [<assets>]": "Show the result with the facilities and the assets for a simulation. <facilities> and <assets> follow to the format \"{<facility/asset>: <amount>[, ...]}\"."
+                },
+                "_describe": "This command is used to calculate the time and the assets required of the goal gain from specific facility.",
+                "_argaliases": {
+                    "--version": ["--v", "--v", "--ver"],
+                    "--regionmodifier": ["--rm", "--modifier", "mod"],
+                    "hq": ["idlecorp", "idlecorphq"],
+                    "icp": ["idlecorpprofit"],
+                    "--to": ["--until", "--goal"],
+                    "--production": ["--produce", "pd"]
+                }
+            }, null
+        ],
+        "profit": [
+            {
+                "_args": {
+                    "--version:<version>": "The version of the sourse, 1.0, 1.1, 2.0.",
+                    "--regionmodifier:{hq|icp}": "The region's modifiers applied, only IdleCorp HQ and IdleCorp Profit.",
+                    "--<time unit>": "The time unit of the result, per each the unit.",
+                    "<facility>": "The facility to calculate.",
+                    "<amount>": "The amount of the facility."
+                },
+                "_describe": "This command is used to calculate the profit of the specific facility.",
+                "_argaliases": {
+                    "--version": ["--v", "--v", "--ver"],
+                    "--regionmodifier": ["--rm", "--modifier", "mod"],
+                    "hq": ["idlecorp", "idlecorphq"],
+                    "icp": ["idlecorpprofit"],
+                    "second": ["sec", "s"],
+                    "minute": ["min", "m"],
+                    "hour": ["hr", "h"],
+                    "day": ["d"]
+                }
+            }, null
+        ],
+        "profitcomplete": [
+            {
+                "_args": {
+                    "--version:<version>": "The version of the sourse, 1.0, 1.1, 2.0.",
+                    "--regionmodifier:{hq|icp}": "The region's modifiers applied, only IdleCorp HQ and IdleCorp Profit.",
+                    "<time unit>": "The time unit of the result, per each the unit.",
+                    "<facility>": "The facility to calculate.",
+                    "<amount>": "The amount of the facility."
+                },
+                "_describe": "This command is used to calculate the profit of the specific facility, and with more complete information: ratio, the required facilities and lands, remain assets with the production.",
+                "_argaliases": {
+                    "--version": ["--v", "--v", "--ver"],
+                    "--regionmodifier": ["--rm", "--modifier", "mod"],
+                    "hq": ["idlecorp", "idlecorphq"],
+                    "icp": ["idlecorpprofit"],
+                    "second": ["sec", "s"],
+                    "minute": ["min", "m"],
+                    "hour": ["hr", "h"],
+                    "day": ["d"]
+                }
+            }, null
+        ],
+        "reload": [
+            {
+                "_args": {
+                    "<command>": "The command to be reloaded."
+                },
+                "_describe": "This command is used to reload a command or remove the cache of a subcommand to apply changes."
+            }, null
+        ],
+        "remind": [
+            {
+                "_args": {
+                    "<time>": "The time with digits.",
+                    "<time unit>": "The time unit, only accept aliases, defaults with second.",
+                    "<value>": "The value to remind."
+                },
+                "_describe": "This command is used to remind user.",
+                "_argaliases": {
+                    "second": ["s", "sec"],
+                    "minute": ["m", "min"],
+                    "hour": ["h", "hr"],
+                    "day": ["d"],
+                    "week": ["w"]
+                }
+            }, null
+        ],
+        "speed": [
+            {
+                "_args": {
+                    "--version:<version>": "The version of the sourse, 1.0, 1.1, 2.0.",
+                    "--regionmodifier:{hq|icp}": "The region's modifiers applied, only IdleCorp HQ and IdleCorp Profit.",
+                    "<time unit>": "The time unit of the result, per each the unit.",
+                    "<facility>": "The facility to calculate.",
+                    "<amount>": "The amount of the facility."
+                },
+                "_describe": "This command is used to calculate the production speeds of the specific facility.",
+                "_argaliases": {
+                    "--version": ["--v", "--v", "--ver"],
+                    "--regionmodifier": ["--rm", "--modifier", "mod"],
+                    "hq": ["idlecorp", "idlecorphq"],
+                    "icp": ["idlecorpprofit"],
+                    "second": ["sec", "s"],
+                    "minute": ["min", "m"],
+                    "hour": ["hr", "h"],
+                    "day": ["d"]
+                }
+            }, null
+        ],
+        "termsofservice": [null, null],
+        "version": [null, null],
+        "wiki": [null, null]
+    },
+    "info": {
+        "_aliases": {
+            "information": ["info"],
+            "list": ["l"],
+            "flags": ["fl", "flg", "flag"],
+            "profitcomplete": ["pfc"],
+            "search": ["sr"]
+        },
+        "information": "This bot has some commands that can do a lot of things, use `help` to know what command can use`, profit` and `profitcomplete` is used to calculate the profit of a facility, `speed` is used to calculate the speed of a facility. There are also 2 commands can separately show 2 different guide, one is a newcomer guide made by Dermelles with `ncguide` to access, another one is a guide that more advanced than the newcomer guide.\nThere a command can suggest,  `suggest` or suggest in <#801067404759007292>.",
+        "list": "List of the information:\n",
+        "flags": "FLags are the special parameters that start with \"--\" or \"-\", mostly start with \"--\". The flag prefixes is necessary, and they may require parameter, depends on the requirement.",
+        "profitcomplete": "The way to understand the embed is:\nConsumes and Produces are the capital input and output with the asset values (base value), if the facility is being worked as 100% passive efficiency, you can ignore the Consumes section.\nProfit is Produces-Consumes, if your facility is being worked as 100% passive efficiency, you can ignore the section.\n\nThe Ratio is shown as the output amounts of previous facilities:input amounts, (perfect ratio, X:1, 1:X).\nAll facilities and lands required when doing with 100% passive efficiency.\n\nAll remains assets and values of them.",
+        "search": "This command is used to search the page on the IdleCorp Wiki, all the capitalizations must be matched. Page syntax: Page[#Section], where section is optional."    }
+}

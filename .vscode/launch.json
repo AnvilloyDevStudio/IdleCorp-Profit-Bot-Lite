@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to find out which attributes exist for C# debugging
+    // Use hover for the description of the existing attributes
+    // For further information visit https://github.com/OmniSharp/omnishar...
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Node.js: Launch Program",
+            "program": "${file}",
+            "request": "launch",
+            // "skipFiles": [
+            //     "<node_internals>/**"
+            // ],
+            "console": "externalTerminal",
+            "type": "pwa-node"
+        }
+    ]
+ }
