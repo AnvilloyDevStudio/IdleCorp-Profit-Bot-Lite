@@ -1,7 +1,8 @@
 # IdleCorp Profit Bot Lite
 
-> [!IMPROTANT]
-> This code is archived according to the state of project.
+> [!IMPORTANT]
+> This code has been *archived* according to the state of project.
+> 
 > For more information, you may head over [here](https://github.com/AnvilloyDevStudio/IdleCorp-Profit-Bot).
 
 During the progression of the project, this Lite version is made for the wide usability
